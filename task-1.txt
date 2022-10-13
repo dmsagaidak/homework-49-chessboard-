@@ -1,0 +1,15 @@
+dmitry@DmSagaidak:~$ cd projects
+dmitry@DmSagaidak:~/projects$ mkdir homework-49
+dmitry@DmSagaidak:~/projects$ cd homework-49
+dmitry@DmSagaidak:~/projects/homework-49$ mkdir task-1
+dmitry@DmSagaidak:~/projects/homework-49$ cd task-1
+dmitry@DmSagaidak:~/projects/homework-49/task-1$ mkdir -p directory1/subdirectory1
+dmitry@DmSagaidak:~/projects/homework-49/task-1$ mkdir -p directory3/subdirectory2
+dmitry@DmSagaidak:~/projects/homework-49/task-1$ mkdir directory2
+dmitry@DmSagaidak:~/projects/homework-49/task-1$ cd directory2
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ echo 'Hello from JS' > hello.txt
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ git config --global user.name "Dmitry Sagaidak"
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ git config --global user.email "dm.sagaidak@gmail.com"
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ git init
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ git add hello.txt
+dmitry@DmSagaidak:~/projects/homework-49/task-1/directory2$ git commit -m "Task-1. Added hello.txt file"
